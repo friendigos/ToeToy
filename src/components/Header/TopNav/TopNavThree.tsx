@@ -9,10 +9,10 @@ interface Props {
 }
 
 const TopNavThree: React.FC<Props> = ({ props }) => {
-    const [isOpenLanguage, setIsOpenLanguage] = useState(false)
-    const [isOpenCurrence, setIsOpenCurrence] = useState(false)
-    const [language, setLanguage] = useState('English')
-    const [currence, setCurrence] = useState('USD')
+    // const [isOpenLanguage, setIsOpenLanguage] = useState(false)
+    // const [isOpenCurrence, setIsOpenCurrence] = useState(false)
+    // const [language, setLanguage] = useState('English')
+    // const [currence, setCurrence] = useState('USD')
 
     return (
         <>
@@ -44,7 +44,7 @@ const TopNavThree: React.FC<Props> = ({ props }) => {
                             </ul>
                         </div>
                         <div className="right-content flex items-center gap-5 max-md:hidden">
-                            <div
+                            {/* <div
                                 className="choose-type choose-language flex items-center gap-1.5"
                                 onClick={() => {
                                     setIsOpenLanguage(!isOpenLanguage)
@@ -62,8 +62,8 @@ const TopNavThree: React.FC<Props> = ({ props }) => {
                                     </ul>
                                 </div>
                                 <Icon.CaretDown size={12} />
-                            </div>
-                            <div
+                            </div> */}
+                            {/* <div
                                 className="choose-type choose-currency flex items-center gap-1.5"
                                 onClick={() => {
                                     setIsOpenCurrence(!isOpenCurrence)
@@ -81,7 +81,7 @@ const TopNavThree: React.FC<Props> = ({ props }) => {
                                     </ul>
                                 </div>
                                 <Icon.CaretDown size={12} />
-                            </div>
+                            </div> */}
                             <Link href={'https://www.facebook.com/'} target='_blank'>
                                 <i className="icon-facebook text-black"></i>
                             </Link>
@@ -91,12 +91,12 @@ const TopNavThree: React.FC<Props> = ({ props }) => {
                             <Link href={'https://www.youtube.com/'} target='_blank'>
                                 <i className="icon-youtube text-black"></i>
                             </Link>
-                            <Link href={'https://twitter.com/'} target='_blank'>
+                            {/* <Link href={'https://twitter.com/'} target='_blank'>
                                 <i className="icon-twitter text-black"></i>
                             </Link>
                             <Link href={'https://pinterest.com/'} target='_blank'>
                                 <i className="icon-pinterest text-black"></i>
-                            </Link>
+                            </Link> */}
                         </div>
 
                     </div>

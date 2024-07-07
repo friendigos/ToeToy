@@ -101,8 +101,8 @@ const MenuJewelry: React.FC<Props> = ({ props }) => {
                         </div>
                         <div className="menu-main h-full xl:w-full flex items-center justify-center max-lg:hidden xl:absolute xl:top-1/2 xl:left-1/2 xl:-translate-x-1/2 xl:-translate-y-1/2">
                             <ul className='flex items-center gap-8 h-full'>
-                                <li className='h-full relative'>
-                                    <Link
+                                {/* <li className='h-full relative'> */}
+                                    {/* <Link
                                         href="#!"
                                         className={`text-button-uppercase duration-300 h-full flex items-center justify-center gap-1 
                                             ${pathname.includes('/homepages/') ? 'active' : ''}`}
@@ -244,8 +244,8 @@ const MenuJewelry: React.FC<Props> = ({ props }) => {
                                                 </Link>
                                             </li>
                                         </ul>
-                                    </div>
-                                </li>
+                                    </div> */}
+                                {/* </li> */}
                                 <li className='h-full'>
                                     <Link href="#!" className='text-button-uppercase duration-300 h-full flex items-center justify-center'>
                                         Features
@@ -844,7 +844,7 @@ const MenuJewelry: React.FC<Props> = ({ props }) => {
                                         </div>
                                     </div>
                                 </li>
-                                <li className='h-full relative'>
+                                {/* <li className='h-full relative'>
                                     <Link href="#!" className='text-button-uppercase duration-300 h-full flex items-center justify-center'>
                                         Blog
                                     </Link>
@@ -877,7 +877,7 @@ const MenuJewelry: React.FC<Props> = ({ props }) => {
                                             </li>
                                         </ul>
                                     </div>
-                                </li>
+                                </li> */}
                                 <li className='h-full relative'>
                                     <Link href="#!" className='text-button-uppercase duration-300 h-full flex items-center justify-center'>
                                         Pages
