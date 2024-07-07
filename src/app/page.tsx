@@ -15,6 +15,7 @@ import Instagram from '@/components/Jewelry/Instagram'
 import Brand from '@/components/Home1/Brand'
 import Footer from '@/components/Footer/Footer'
 import ModalNewsletter from '@/components/Modal/ModalNewsletter'
+import FlashSale from '@/components/Furniture/FlashSale'
 
 export default function Home() {
   return (
@@ -30,6 +31,7 @@ export default function Home() {
             <Lookbook />
             <TabFeatures data={productData} start={0} limit={4} />
             <FeaturedProduct data={productData} />
+            <FlashSale />
             <Newsletter props="bg-transparent" />
             <Benefit props="py-[60px] bg-linear" />
             <Instagram />
