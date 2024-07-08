@@ -16,6 +16,8 @@ import Brand from '@/components/Home1/Brand'
 import Footer from '@/components/Footer/Footer'
 import ModalNewsletter from '@/components/Modal/ModalNewsletter'
 import FlashSale from '@/components/Furniture/FlashSale'
+import CommunityStory from '@/components/Cosmetic1/CommunityStory'
+import AdsPhoto from '@/components/Cosmetic1/AdsPhoto'
 
 export default function Home() {
   return (
@@ -30,11 +32,12 @@ export default function Home() {
             <Lookbook />
             <Quote />
             <FeaturedProduct data={productData} />
+            <AdsPhoto />
             <TabFeatures data={productData} start={0} limit={4} />           
             <FlashSale />
             <Newsletter props="bg-transparent" />
             <Benefit props="py-[60px] bg-linear" />
-            <Instagram />
+            <CommunityStory />
             <Brand />
             <Footer />
             <ModalNewsletter />
