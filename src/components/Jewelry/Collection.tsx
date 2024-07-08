@@ -14,7 +14,7 @@ const Collection = () => {
 
     return (
         <>
-            <div className="banner-block md:pt-20 pt-10">
+            <div className="banner-block md:pt-20 pt-10 bg-[#fff]">
                 <div className="container">
                     <div className="list-banner grid lg:grid-cols-4 min-[480px]:grid-cols-2 gap-[30px]">
                         <div className="bg-black rounded-[20px] overflow-hidden h-full py-8 md:px-[30px] px-6 flex flex-col justify-center">

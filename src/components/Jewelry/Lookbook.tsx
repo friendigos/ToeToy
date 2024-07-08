@@ -15,7 +15,7 @@ const Lookbook = () => {
 
     return (
         <>
-            <div className="look-book-block md:mt-20 mt-10 lg:py-20 md:py-14 py-10 bg-linear">
+            <div className="look-book-block md:pt-20 lg:py-20 md:py-14 py-20 bg-[#fff]">
                 <div className="container">
                     <div className="main-content relative flex max-lg:flex-wrap gap-y-5 items-center lg:justify-end justify-center">
                         <div className="heading bg-white xl:py-20 py-10 xl:px-10 px-8 rounded-2xl lg:w-[30%] lg:absolute lg:top-1/2 lg:-translate-y-1/2 lg:left-0 z-[1] max-lg:text-center">

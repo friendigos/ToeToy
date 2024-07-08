@@ -55,7 +55,7 @@ const FeaturedProduct: React.FC<Props> = ({ data }) => {
     return (
         <>
             <div className="featured-product cosmetic md:mt-20 mt-10 lg:py-20 md:py-14 py-10 bg-linear">
-                <div className="container flex lg:items-center justify-between gap-y-6 flex-wrap">
+                <div className="container flex lg:items-center justify-between gap-y-6 flex-wrap"  style={{width:"95%",margin:"auto"}}>
                     <div className="list-img md:w-1/2 md:pr-4 w-full">
                         <Image
                             src={productMain.images[0]}

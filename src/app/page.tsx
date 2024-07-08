@@ -26,12 +26,11 @@ export default function Home() {
                 <BannerTop props="bg-black py-3" textColor='text-white' bgLine='bg-white' />
                 <SliderJewelry />
             </div>
-            <Quote />
             <Collection />
             <Lookbook />
+            <Quote />
             <FeaturedProduct data={productData} />
-            <TabFeatures data={productData} start={0} limit={4} />
-            
+            <TabFeatures data={productData} start={0} limit={4} />           
             <FlashSale />
             <Newsletter props="bg-transparent" />
             <Benefit props="py-[60px] bg-linear" />

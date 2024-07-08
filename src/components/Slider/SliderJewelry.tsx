@@ -26,14 +26,14 @@ const SliderJewelry = () => {
                         <SwiperSlide>
                             <div className="slider-item h-full w-full relative">
                                 <div className="container w-full h-full flex items-center">
-                                    <div className="text-content sm:w-1/2 w-2/3">
-                                        <div className="text-sub-display">Sale! Up To 50% Off!</div>
-                                        <div className="text-display md:mt-5 mt-2">Experience the Beauty of Cosmetic Innovations</div>
+                                    <div className="text-content sm:w-1/2 w-2/3 ml-[20px]">
+                                        <div className="text-sub-display">Sale! Up To 20% Off!</div>
+                                        <div className="text-display md:mt-5 mt-2 w-full">JUST DO IT</div>
                                         <Link href='/shop/breadcrumb-img' className="button-main md:mt-8 mt-3">Shop Now</Link>
                                     </div>
                                     <div className="sub-img absolute left-0 top-0 w-full h-full z-[-1]">
                                         <Image
-                                            src={'/images/slider/bg-jewelry1-3.png'}
+                                            src={'/images/slider/3.png'}
                                             width={2560}
                                             height={1080}
                                             alt='bg-jewelry1-3'
@@ -47,17 +47,17 @@ const SliderJewelry = () => {
                         <SwiperSlide>
                             <div className="slider-item h-full w-full relative">
                                 <div className="container w-full h-full flex items-center">
-                                    <div className="text-content sm:w-1/2 w-2/3">
-                                        <div className="text-sub-display">Sale! Up To 50% Off!</div>
-                                        <div className="text-display md:mt-5 mt-2">Indulge in the Luxurious World of Cosmetics</div>
+                                    <div className="text-content sm:w-1/2 w-2/3 ml-[20px]">
+                                        <div className="text-sub-display">Sale! Up To 20% Off!</div>
+                                        <div className="text-display md:mt-5 mt-2">Step Up Your Style.</div>
                                         <Link href='/shop/breadcrumb-img' className="button-main md:mt-8 mt-3">Shop Now</Link>
                                     </div>
                                     <div className="sub-img absolute left-0 top-0 w-full h-full z-[-1]">
-                                        <Image
-                                            src={'/images/slider/bg-jewelry1-2.png'}
+                                    <Image
+                                            src={'/images/slider/4.png'}
                                             width={2560}
                                             height={1080}
-                                            alt='bg-jewelry1-2'
+                                            alt='bg-jewelry1-3'
                                             priority={true}
                                             className='w-full h-full object-cover'
                                         />
@@ -68,17 +68,38 @@ const SliderJewelry = () => {
                         <SwiperSlide>
                             <div className="slider-item h-full w-full relative">
                                 <div className="container w-full h-full flex items-center">
-                                    <div className="text-content sm:w-1/2 w-2/3">
-                                        <div className="text-sub-display">Sale! Up To 50% Off!</div>
-                                        <div className="text-display md:mt-5 mt-2">Embrace the Artistry of Cosmetic Products</div>
+                                    <div className="text-content sm:w-1/2 w-2/3 ml-[20px]">
+                                        <div className="text-sub-display">Sale! Up To 20% Off!</div>
+                                        <div className="text-display md:mt-5 mt-2">Step Up Your Style.</div>
                                         <Link href='/shop/breadcrumb-img' className="button-main md:mt-8 mt-3">Shop Now</Link>
                                     </div>
                                     <div className="sub-img absolute left-0 top-0 w-full h-full z-[-1]">
-                                        <Image
-                                            src={'/images/slider/bg-jewelry1-1.png'}
+                                    <Image
+                                            src={'/images/slider/5.png'}
                                             width={2560}
                                             height={1080}
-                                            alt='bg-jewelry1-1'
+                                            alt='bg-jewelry1-3'
+                                            priority={true}
+                                            className='w-full h-full object-cover'
+                                        />
+                                    </div>
+                                </div>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className="slider-item h-full w-full relative">
+                                <div className="container w-full h-full flex items-center">
+                                    <div className="text-content sm:w-1/2 w-2/3 ml-[20px]">
+                                        <div className="text-sub-display">Sale! Up To 20% Off!</div>
+                                        <div className="text-display md:mt-5 mt-2">Step Up Your Style.</div>
+                                        <Link href='/shop/breadcrumb-img' className="button-main md:mt-8 mt-3">Shop Now</Link>
+                                    </div>
+                                    <div className="sub-img absolute left-0 top-0 w-full h-full z-[-1]">
+                                    <Image
+                                            src={'/images/slider/6.png'}
+                                            width={2560}
+                                            height={1080}
+                                            alt='bg-jewelry1-3'
                                             priority={true}
                                             className='w-full h-full object-cover'
                                         />

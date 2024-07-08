@@ -1,7 +1,8 @@
 'use client'
 
 import React from 'react'
-import Image from 'next/image'
+import Image from 'next/image';
+import './Instagram.css';
 import Link from 'next/link'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from 'swiper/modules';
@@ -10,7 +11,7 @@ import 'swiper/css/bundle';
 const Instagram = () => {
     return (
         <>
-            <div className="instagram-block md:pt-20 pt-10">
+            <div className="instagram-block md:pt-20 pt-10 instagram_bg">
                 <div className="container">
                     <div className="heading">
                         <div className="heading3 text-center">ToeToys On YouTube</div>

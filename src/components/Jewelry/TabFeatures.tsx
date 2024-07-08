@@ -4,6 +4,7 @@ import React, { useState } from 'react'
 import Product from '../Product/Product'
 import { ProductType } from '@/type/ProductType'
 import { motion } from 'framer-motion'
+import './TabFeatures.css';
 
 interface Props {
     data: Array<ProductType>;
@@ -41,7 +42,7 @@ const TabFeatures: React.FC<Props> = ({ data, start, limit }) => {
 
     return (
         <>
-            <div className="tab-features-block relative md:pt-20 pt-10">
+            <div className="tab-features-block relative md:pt-20 pt-10 tab_feature_bg">
                 <div className="container">
                     <div className="heading flex flex-col items-center text-center">
                         <div className="menu-tab flex items-center gap-2 p-1 bg-surface rounded-2xl">

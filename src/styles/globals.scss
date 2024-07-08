@@ -101,7 +101,7 @@ textarea:focus {
 }
 
 .bg-linear {
-  background: linear-gradient(238deg, #FAF8F1 0%, #F6F3EF 99.66%);
+  background: #fff;
 }
 
 .box-shadow-small {
@@ -118,9 +118,10 @@ textarea:focus {
 
 .text-display {
   font-size: 80px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 88px;
   text-transform: capitalize;
+  width: 60%;
 }
 
 .heading1 {
