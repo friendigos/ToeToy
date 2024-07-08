@@ -49,7 +49,7 @@ const SliderJewelry = () => {
                                 <div className="container w-full h-full flex items-center">
                                     <div className="text-content sm:w-1/2 w-2/3 ml-[20px]">
                                         <div className="text-sub-display">Sale! Up To 20% Off!</div>
-                                        <div className="text-display md:mt-5 mt-2">Step Up Your Style.</div>
+                                        <div className="text-display md:mt-5 mt-2" style={{width:"60%"}}>Step Up Your Style.</div>
                                         <Link href='/shop/breadcrumb-img' className="button-main md:mt-8 mt-3">Shop Now</Link>
                                     </div>
                                     <div className="sub-img absolute left-0 top-0 w-full h-full z-[-1]">
@@ -70,7 +70,7 @@ const SliderJewelry = () => {
                                 <div className="container w-full h-full flex items-center">
                                     <div className="text-content sm:w-1/2 w-2/3 ml-[20px]">
                                         <div className="text-sub-display">Sale! Up To 20% Off!</div>
-                                        <div className="text-display md:mt-5 mt-2">Step Up Your Style.</div>
+                                        <div className="text-display md:mt-5 mt-2" style={{width:"60%"}}>Step Up Your Style.</div>
                                         <Link href='/shop/breadcrumb-img' className="button-main md:mt-8 mt-3">Shop Now</Link>
                                     </div>
                                     <div className="sub-img absolute left-0 top-0 w-full h-full z-[-1]">
@@ -91,7 +91,7 @@ const SliderJewelry = () => {
                                 <div className="container w-full h-full flex items-center">
                                     <div className="text-content sm:w-1/2 w-2/3 ml-[20px]">
                                         <div className="text-sub-display">Sale! Up To 20% Off!</div>
-                                        <div className="text-display md:mt-5 mt-2">Step Up Your Style.</div>
+                                        <div className="text-display md:mt-5 mt-2" style={{width:"60%"}}>Step Up Your Style.</div>
                                         <Link href='/shop/breadcrumb-img' className="button-main md:mt-8 mt-3">Shop Now</Link>
                                     </div>
                                     <div className="sub-img absolute left-0 top-0 w-full h-full z-[-1]">
