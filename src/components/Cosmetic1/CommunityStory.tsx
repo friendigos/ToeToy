@@ -13,7 +13,7 @@ const CommunityStory = () => {
     };
 
     return (
-        <div className="community-story-block md:mt-20 mt-10">
+        <div className="community-story-block md:mt-20 mt-10 bg-[#fff]">
             <div className="container">
                 <div className="heading3 text-center">Community Stories</div>
                 <div className="mt-3 text-center">Trust - lovely guests</div>
@@ -23,7 +23,7 @@ const CommunityStory = () => {
                         onClick={() => handleDetailProduct('53')}>
                         <div className="bg-img w-full h-full">
                             <iframe className="w-full h-full"
-                                src="https://www.youtube.com/embed/lnTWVAyMHg0?si=jCD4v1XxwsVwCn64&controls=0&autoplay=1&mute=1&rel=0"
+                                src="https://www.youtube.com/shorts/YwBqD8ZvbHg"
                                 title="YouTube video player"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
                         </div>
@@ -49,7 +49,7 @@ const CommunityStory = () => {
                         onClick={() => handleDetailProduct('45')}>
                         <div className="bg-img h-full w-full">
                             <iframe className="w-full h-full"
-                                src="https://www.youtube.com/embed/SQKGyw0d-fU?si=TylurstsiRYdJkQ-&controls=0&autoplay=1&mute=1&rel=0"
+                                src="https://www.youtube.com/embed/JzjqJa7Y4_U"
                                 title="YouTube video player"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
                         </div>
@@ -75,7 +75,7 @@ const CommunityStory = () => {
                         onClick={() => handleDetailProduct('41')}>
                         <div className="bg-img h-full w-full">
                             <iframe className="h-full w-full"
-                                src="https://www.youtube.com/embed/XFWoLiOKBt0?si=QdURubTrYAmvDLc0&controls=0&autoplay=1&mute=1&rel=0"
+                                src="https://www.youtube.com/embed/34uVm5GTMqM"
                                 title="YouTube video player"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
                         </div>
@@ -101,7 +101,7 @@ const CommunityStory = () => {
                         onClick={() => handleDetailProduct('46')}>
                         <div className="bg-img h-full w-full">
                             <iframe className="h-full w-full"
-                                src="https://www.youtube.com/embed/huOVTcPUc_4?si=yRH0DqbR02dAoqyW&controls=0&autoplay=1&mute=1&rel=0"
+                                src="https://youtube.com/embed/GpQhm70fHUU?si=3DY8GxWpLrpuqEv-"
                                 title="YouTube video player"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
                         </div>

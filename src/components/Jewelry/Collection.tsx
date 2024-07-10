@@ -20,58 +20,48 @@ const Collection = () => {
                         <div className="banner-item relative bg-surface block rounded-[20px] overflow-hidden duration-500 cursor-pointer" onClick={() => handleCategoryClick('jewelry')}>
                             <div className="banner-img w-full h-full">
                                 <Image
-                                    src={'/images/collection/category-jewelry1.png'}
+                                    src={'/images/toe/nike.png'}
                                     width={1000}
                                     height={800}
                                     alt='bg-img'
                                     className='w-full h-full object-cover duration-500'
                                 />
-                            </div>
-                            <div className="banner-content absolute left-[30px] bottom-[30px]">
-                                <div className="heading4">15 Products</div>
                             </div>
                         </div>
                         <div className="banner-item relative bg-surface block rounded-[20px] overflow-hidden duration-500 cursor-pointer" onClick={() => handleCategoryClick('jewelry')}>
                             <div className="banner-img w-full h-full">
                                 <Image
-                                    src={'/images/collection/category-jewelry2.png'}
+                                    src={'/images/toe/adidas.png'}
                                     width={1000}
                                     height={800}
                                     alt='bg-img'
                                     className='w-full h-full object-cover duration-500'
                                 />
-                            </div>
-                            <div className="banner-content absolute left-[30px] bottom-[30px]">
-                                <div className="heading4">7 Products</div>
                             </div>
                         </div>
                         <div className="banner-item relative bg-surface block rounded-[20px] overflow-hidden duration-500 cursor-pointer" onClick={() => handleCategoryClick('jewelry')}>
                             <div className="banner-img w-full h-full">
                                 <Image
-                                    src={'/images/collection/category-jewelry3.png'}
+                                    src={'/images/toe/newbalance.png'}
                                     width={1000}
                                     height={800}
                                     alt='bg-img'
                                     className='w-full h-full object-cover duration-500'
                                 />
                             </div>
-                            <div className="banner-content absolute left-[30px] bottom-[30px]">
-                                <div className="heading4">12 Products</div>
-                            </div>
+                             
                         </div>
                         <div className="banner-item relative bg-surface block rounded-[20px] overflow-hidden duration-500 cursor-pointer" onClick={() => handleCategoryClick('jewelry')}>
                             <div className="banner-img w-full h-full">
                                 <Image
-                                    src={'/images/collection/category-jewelry3.png'}
+                                    src={'/images/toe/crocs.png'}
                                     width={1000}
                                     height={800}
                                     alt='bg-img'
                                     className='w-full h-full object-cover duration-500'
                                 />
                             </div>
-                            <div className="banner-content absolute left-[30px] bottom-[30px]">
-                                <div className="heading4">12 Products</div>
-                            </div>
+                             
                         </div>
                     </div>
                 </div>
