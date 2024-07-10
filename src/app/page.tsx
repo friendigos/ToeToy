@@ -32,7 +32,6 @@ export default function Home() {
             <Lookbook />
             <Quote />
             <FeaturedProduct data={productData} />
-            
             <TabFeatures data={productData} start={0} limit={4} />           
             <FlashSale />
             <AdsPhoto />

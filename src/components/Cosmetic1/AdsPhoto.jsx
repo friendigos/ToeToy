@@ -78,10 +78,10 @@ const AdsPhoto = () => {
                         data-image-comparison-overlay="">
                         <figure className="image-comparison__figure image-comparison__figure--overlay">
                             <picture className="image-comparison__picture">
-                                <source media="(max-width: 40em)" srcSet="/images/banner/dirty.webp" />
+                                <source media="(max-width: 40em)" srcSet="/images/toe/dirty.jpg" />
                                 <source media="(min-width: 40.0625em) and (max-width: 48em)"
-                                    srcSet="/images/banner/dirty.webp" />
-                                <img src="/images/banner/dirty.webp" alt="Mojave desert in the sun"
+                                    srcSet="/images/toe/dirty.jpg" />
+                                <img src="/images/toe/dirty.jpg" alt="Mojave desert in the sun"
                                     className="image-comparison__image" />
                             </picture>
 
@@ -109,10 +109,10 @@ const AdsPhoto = () => {
                     <div className="image-comparison__image-wrapper">
                         <figure className="image-comparison__figure">
                             <picture className="image-comparison__picture">
-                                <source media="(max-width: 40em)" srcSet="/images/banner/clean.webp" />
+                                <source media="(max-width: 40em)" srcSet="/images/toe/clean.jpg" />
                                 <source media="(min-width: 40.0625em) and (max-width: 48em)"
-                                    srcSet="/images/banner/clean.webp" />
-                                <img src="/images/banner/clean.webp" alt="Mojave desert in the dark"
+                                    srcSet="/images/toe/clean.jpg" />
+                                <img src="/images/toe/clean.jpg" alt="Mojave desert in the dark"
                                     className="image-comparison__image after" />
                             </picture>
 
