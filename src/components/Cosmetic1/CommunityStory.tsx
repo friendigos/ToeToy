@@ -13,10 +13,10 @@ const CommunityStory = () => {
     };
 
     return (
-        <div className="community-story-block md:mt-20 mt-10 bg-[#fff]">
+        <div className="community-story-block pt-10 bg-[#fff]">
             <div className="container">
-                <div className="heading3 text-center">Community Stories</div>
-                <div className="mt-3 text-center">Trust - lovely guests</div>
+                <div className="heading3 text-center">Unboxing Stories</div>
+                <div className="mt-3 text-center">#ToeToys</div>
                 <div
                     className='list-product grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 md:gap-[30px] gap-[16px] md:mt-10 mt-6'>
                     <div className="product-item block h-full relative aspect-[3/4] md:rounded-2xl rounded-xl overflow-hidden cursor-pointer"

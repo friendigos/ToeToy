@@ -32,10 +32,10 @@ export default function Home() {
             <Lookbook />
             <Quote />
             <FeaturedProduct data={productData} />
-            <AdsPhoto />
+            
             <TabFeatures data={productData} start={0} limit={4} />           
             <FlashSale />
-            <Newsletter props="bg-transparent" />
+            <AdsPhoto />
             <Benefit props="py-[60px] bg-linear" />
             <CommunityStory />
             <Brand />
