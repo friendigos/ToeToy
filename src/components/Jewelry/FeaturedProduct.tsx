@@ -7,8 +7,7 @@ import Rate from '../Other/Rate'
 import * as Icon from "@phosphor-icons/react/dist/ssr";
 import { useCart } from '@/context/CartContext'
 import { useModalCartContext } from '@/context/ModalCartContext'
-import * as Pdt360DegViewer from './Logic.js';
-import 
+
 
 interface Props {
     data: Array<ProductType>;
@@ -54,22 +53,19 @@ const FeaturedProduct: React.FC<Props> = ({ data }) => {
     const productMain = data[74];
     const percentSale = Math.floor(100 - ((productMain.price / productMain.originPrice) * 100))
 
-    // Pdt360DegViewer(imgDivid, count, path, imgType, playable, autoPlay, drag, mouseMove, buttonNavigation, keyNavigation, scroll);
-
-
     return (
         <>
             <div className="featured-product cosmetic md:mt-20 mt-10 lg:py-20 md:py-14 py-10 bg-linear">
                 <div className="container flex lg:items-center justify-between gap-y-6 flex-wrap"  style={{width:"95%",margin:"auto"}}>
                     <div className="list-img md:w-1/2 md:pr-4 w-full" id="slider">
-                        {/* <Image
+                        { <Image
                             src={productMain.images[0]}
                             width={1000}
                             height={1000}
                             alt='prd-img'
                             priority={true}
                             className='w-full h-full aspect-square object-cover rounded-[20px]'
-                        /> */}
+                        /> }
                     </div>
                     <div className="product-infor md:w-1/2 w-full lg:pl-16 md:pl-6">
                         <div className="caption2 text-secondary font-semibold uppercase">{productMain.type}</div>
