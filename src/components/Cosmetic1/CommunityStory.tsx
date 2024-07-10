@@ -23,7 +23,7 @@ const CommunityStory = () => {
                         onClick={() => handleDetailProduct('53')}>
                         <div className="bg-img w-full h-full">
                             <iframe className="w-full h-full"
-                                src="https://www.youtube.com/shorts/YwBqD8ZvbHg"
+                                src="https://www.youtube.com/embed/YwBqD8ZvbHg"
                                 title="YouTube video player"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
                         </div>
