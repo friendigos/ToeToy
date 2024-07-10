@@ -14,7 +14,7 @@ const Collection = () => {
 
     return (
         <>
-            <div className="banner-block md:pt-20 pt-10 bg-[#fff]">
+            <div className="banner-block md:pt-20 pt-10 bg-[#fff] py-20">
                 <div className="container">
                     <div className="list-banner grid lg:grid-cols-4 min-[480px]:grid-cols-2 gap-[30px]">
                         <div className="banner-item relative bg-surface block rounded-[20px] overflow-hidden duration-500 cursor-pointer" onClick={() => handleCategoryClick('jewelry')}>
