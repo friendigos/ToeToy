@@ -68,7 +68,7 @@ const AdsPhoto = () => {
 
     return (
         <>
-            <section className="image-comparison md:pt-[60px] pt-8" data-component="image-comparison-slider">
+            <section className="image-comparison md:pt-[60px] pt-8 bg-[#fff]" data-component="image-comparison-slider">
                 <div className="image-comparison__slider-wrapper xl:h-[440px] md:h-[260px] overflow-hidden">
                     <label htmlFor="image-compare-range" className="image-comparison__label">Move image comparison slider</label>
                     <input type="range" min="0" max="100" value="50" className="image-comparison__range" id="image-compare-range"
