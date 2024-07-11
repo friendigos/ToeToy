@@ -109,10 +109,10 @@ const AdsPhoto = () => {
                     <div className="image-comparison__image-wrapper">
                         <figure className="image-comparison__figure">
                             <picture className="image-comparison__picture">
-                                <source media="(max-width: 40em)" srcSet="/images/toe/clean.jpg" />
+                                <source media="(max-width: 40em)" srcSet="/images/toe/clean2.jpeg" />
                                 <source media="(min-width: 40.0625em) and (max-width: 48em)"
-                                    srcSet="/images/toe/clean.jpg" />
-                                <img src="/images/toe/clean.jpg" alt="Mojave desert in the dark"
+                                    srcSet="/images/toe/clean2.jpeg" />
+                                <img src="/images/toe/clean2.jpeg" alt="Mojave desert in the dark"
                                     className="image-comparison__image after" />
                             </picture>
 
