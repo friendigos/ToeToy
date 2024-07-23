@@ -37,7 +37,7 @@ export default function Home() {
             <AdsPhoto />
             <Benefit props="py-[60px] bg-linear" />
             <CommunityStory />
-            <Brand />
+            {/* <Brand /> */}
             <Footer />
             <ModalNewsletter />
         </>
