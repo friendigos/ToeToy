@@ -30,7 +30,7 @@ const SliderCosmeticThree = () => {
                                 <div className="container w-full h-full flex flex-col text-center items-center justify-center">
                                     <div className="text-content sm:w-[55%] w-2/3">
                                         <div className="text-sub-display text-center text-white">Sale! Up To 50% Off!</div>
-                                        <div className="text-display text-center text-white md:mt-5 mt-2">Discover the Secrets of Effective Skincare</div>
+                                        <div className="text-display text-center text-white md:mt-5 mt-2">Discover the Leather Quality</div>
                                         <Link href='/shop/breadcrumb-img' className="button-main bg-white text-black md:mt-8 mt-3">Shop Now</Link>
                                     </div>
                                     <div className="sub-img absolute left-0 top-0 w-full h-full z-[-1]">
@@ -51,7 +51,7 @@ const SliderCosmeticThree = () => {
                                 <div className="container w-full h-full flex flex-col text-center items-center justify-center">
                                     <div className="text-content sm:w-[55%] w-2/3">
                                         <div className="text-sub-display text-center text-white">Sale! Up To 50% Off!</div>
-                                        <div className="text-display text-center text-white md:mt-5 mt-2">Experience the Beauty of Effective Skincare</div>
+                                        <div className="text-display text-center text-white md:mt-5 mt-2">All Types of Bags Available</div>
                                         <Link href='/shop/breadcrumb-img' className="button-main bg-white text-black md:mt-8 mt-3">Shop Now</Link>
                                     </div>
                                     <div className="sub-img absolute left-0 top-0 w-full h-full z-[-1]">
@@ -72,7 +72,7 @@ const SliderCosmeticThree = () => {
                                 <div className="container w-full h-full flex flex-col text-center items-center justify-center">
                                     <div className="text-content sm:w-[55%] w-2/3">
                                         <div className="text-sub-display text-center text-white">Sale! Up To 50% Off!</div>
-                                        <div className="text-display text-center text-white md:mt-5 mt-2">Elevate Your Skincare Journey</div>
+                                        <div className="text-display text-center text-white md:mt-5 mt-2">Elevate Your Style With Our Accesories</div>
                                         <Link href='/shop/breadcrumb-img' className="button-main bg-white text-black md:mt-8 mt-3">Shop Now</Link>
                                     </div>
                                     <div className="sub-img absolute left-0 top-0 w-full h-full z-[-1]">

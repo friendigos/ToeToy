@@ -80,7 +80,7 @@ const MenuJewelry: React.FC<Props> = ({ props }) => {
                             <i className="icon-category text-2xl"></i>
                         </div>
                         <Link href={'/'} className='flex items-center lg:hidden'>
-                            <div className="heading4">ToeToys</div>
+                            <div className="heading4">BrandStore19</div>
                         </Link>
                         <div className="form-search relative max-lg:hidden z-[1]">
                             <Icon.MagnifyingGlass
@@ -270,7 +270,7 @@ const MenuJewelry: React.FC<Props> = ({ props }) => {
                                                                     onClick={() => handleTypeClick('bracelet')}
                                                                     className={`link text-secondary duration-300 cursor-pointer`}
                                                                 >
-                                                                    Chain Bracelet
+                                                                    Shoes Under 899
                                                                 </div>
                                                             </li>
                                                             <li>
@@ -278,7 +278,7 @@ const MenuJewelry: React.FC<Props> = ({ props }) => {
                                                                     onClick={() => handleTypeClick('necklace')}
                                                                     className={`link text-secondary duration-300 cursor-pointer`}
                                                                 >
-                                                                    Necklace Charms
+                                                                    Shoes Under 999
                                                                 </div>
                                                             </li>
                                                             <li>
@@ -286,7 +286,7 @@ const MenuJewelry: React.FC<Props> = ({ props }) => {
                                                                     onClick={() => handleTypeClick('ring')}
                                                                     className={`link text-secondary duration-300 cursor-pointer`}
                                                                 >
-                                                                    Engagement Ring
+                                                                    Shoes Under 1299
                                                                 </div>
                                                             </li>
                                                             <li>
@@ -300,14 +300,14 @@ const MenuJewelry: React.FC<Props> = ({ props }) => {
                                                         </ul>
                                                     </div>
                                                     <div className="nav-item">
-                                                        <div className="text-button-uppercase pb-2">necklace</div>
+                                                        <div className="text-button-uppercase pb-2">Nike</div>
                                                         <ul>
                                                             <li>
                                                                 <div
                                                                     onClick={() => handleTypeClick('necklace')}
                                                                     className={`link text-secondary duration-300 cursor-pointer`}
                                                                 >
-                                                                    Zodiac Necklace
+                                                                    Nike Air Jordans 1
                                                                 </div>
                                                             </li>
                                                             <li>
@@ -315,7 +315,7 @@ const MenuJewelry: React.FC<Props> = ({ props }) => {
                                                                     onClick={() => handleTypeClick('necklace')}
                                                                     className={`link text-secondary duration-300 cursor-pointer`}
                                                                 >
-                                                                    Pendant Necklace
+                                                                   Nike Air Jordans 4
                                                                 </div>
                                                             </li>
                                                             <li>
@@ -323,7 +323,7 @@ const MenuJewelry: React.FC<Props> = ({ props }) => {
                                                                     onClick={() => handleTypeClick('necklace')}
                                                                     className={`link text-secondary duration-300 cursor-pointer`}
                                                                 >
-                                                                    Chain Necklace
+                                                                    Nike Sb Dunks
                                                                 </div>
                                                             </li>
                                                             <li>
@@ -331,7 +331,7 @@ const MenuJewelry: React.FC<Props> = ({ props }) => {
                                                                     onClick={() => handleTypeClick('necklace')}
                                                                     className={`link text-secondary duration-300 cursor-pointer`}
                                                                 >
-                                                                    Necklace Charms
+                                                                    Nike Lows
                                                                 </div>
                                                             </li>
                                                             <li>
@@ -345,14 +345,14 @@ const MenuJewelry: React.FC<Props> = ({ props }) => {
                                                         </ul>
                                                     </div>
                                                     <div className="nav-item">
-                                                        <div className="text-button-uppercase pb-2">bracelet</div>
+                                                        <div className="text-button-uppercase pb-2">New Balance</div>
                                                         <ul>
                                                             <li>
                                                                 <div
                                                                     onClick={() => handleTypeClick('bracelet')}
                                                                     className={`link text-secondary duration-300 cursor-pointer`}
                                                                 >
-                                                                    Chain Bracelet
+                                                                    Ne Balance 260r
                                                                 </div>
                                                             </li>
                                                             <li>
@@ -360,7 +360,7 @@ const MenuJewelry: React.FC<Props> = ({ props }) => {
                                                                     onClick={() => handleTypeClick('bracelet')}
                                                                     className={`link text-secondary duration-300 cursor-pointer`}
                                                                 >
-                                                                    Cuffs Bracelet
+                                                                    New Balance 9080
                                                                 </div>
                                                             </li>
                                                             <li>
@@ -368,7 +368,7 @@ const MenuJewelry: React.FC<Props> = ({ props }) => {
                                                                     onClick={() => handleTypeClick('bracelet')}
                                                                     className={`link text-secondary duration-300 cursor-pointer`}
                                                                 >
-                                                                    Lip Bracelet
+                                                                    New Balance 300r
                                                                 </div>
                                                             </li>
                                                             <li>
@@ -376,7 +376,7 @@ const MenuJewelry: React.FC<Props> = ({ props }) => {
                                                                     onClick={() => handleTypeClick('bracelet')}
                                                                     className={`link text-secondary duration-300 cursor-pointer`}
                                                                 >
-                                                                    Bracelet Charms
+                                                                    New Balance 9060
                                                                 </div>
                                                             </li>
                                                             <li>
@@ -390,14 +390,14 @@ const MenuJewelry: React.FC<Props> = ({ props }) => {
                                                         </ul>
                                                     </div>
                                                     <div className="nav-item">
-                                                        <div className="text-button-uppercase pb-2">Ring</div>
+                                                        <div className="text-button-uppercase pb-2">Adidas</div>
                                                         <ul>
                                                             <li>
                                                                 <div
                                                                     onClick={() => handleTypeClick('ring')}
                                                                     className={`link text-secondary duration-300 cursor-pointer`}
                                                                 >
-                                                                    Wedding Ring
+                                                                    Adidas Sports
                                                                 </div>
                                                             </li>
                                                             <li>
@@ -405,7 +405,7 @@ const MenuJewelry: React.FC<Props> = ({ props }) => {
                                                                     onClick={() => handleTypeClick('ring')}
                                                                     className={`link text-secondary duration-300 cursor-pointer`}
                                                                 >
-                                                                    Signet Ring
+                                                                    Adidas Cassual
                                                                 </div>
                                                             </li>
                                                             <li>
@@ -413,7 +413,7 @@ const MenuJewelry: React.FC<Props> = ({ props }) => {
                                                                     onClick={() => handleTypeClick('ring')}
                                                                     className={`link text-secondary duration-300 cursor-pointer`}
                                                                 >
-                                                                    Engagement Ring
+                                                                    Adidas Samba
                                                                 </div>
                                                             </li>
                                                             <li>
@@ -421,7 +421,52 @@ const MenuJewelry: React.FC<Props> = ({ props }) => {
                                                                     onClick={() => handleTypeClick('ring')}
                                                                     className={`link text-secondary duration-300 cursor-pointer`}
                                                                 >
-                                                                    Pinky Ring
+                                                                    Adidas Sneakers
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div
+                                                                    onClick={() => handleTypeClick('ring')}
+                                                                    className={`link text-secondary duration-300 view-all-btn`}
+                                                                >
+                                                                    View All
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div className="nav-item">
+                                                        <div className="text-button-uppercase pb-2">Adidas</div>
+                                                        <ul>
+                                                            <li>
+                                                                <div
+                                                                    onClick={() => handleTypeClick('ring')}
+                                                                    className={`link text-secondary duration-300 cursor-pointer`}
+                                                                >
+                                                                    Adidas Sports
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div
+                                                                    onClick={() => handleTypeClick('ring')}
+                                                                    className={`link text-secondary duration-300 cursor-pointer`}
+                                                                >
+                                                                    Adidas Cassual
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div
+                                                                    onClick={() => handleTypeClick('ring')}
+                                                                    className={`link text-secondary duration-300 cursor-pointer`}
+                                                                >
+                                                                    Adidas Samba
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div
+                                                                    onClick={() => handleTypeClick('ring')}
+                                                                    className={`link text-secondary duration-300 cursor-pointer`}
+                                                                >
+                                                                    Adidas Sneakers
                                                                 </div>
                                                             </li>
                                                             <li>
@@ -435,7 +480,7 @@ const MenuJewelry: React.FC<Props> = ({ props }) => {
                                                         </ul>
                                                     </div>
                                                 </div>
-                                                <div className="banner-ads-block pl-2.5 basis-1/3">
+                                                {/* <div className="banner-ads-block pl-2.5 basis-1/3">
                                                     <div className="banner-ads-item bg-linear rounded-2xl relative overflow-hidden cursor-pointer" onClick={() => handleCategoryClick('jewelry')}>
                                                         <div className="text-content py-14 pl-8 relative z-[1]">
                                                             <div className="text-button-uppercase text-white bg-red px-2 py-0.5 inline-block rounded-sm">Save $10</div>
@@ -453,7 +498,7 @@ const MenuJewelry: React.FC<Props> = ({ props }) => {
                                                             className='absolute left-0 top-0 w-full h-full object-cover'
                                                         />
                                                     </div>
-                                                </div>
+                                                </div> */}
                                             </div>
                                         </div>
                                     </div>
@@ -661,7 +706,7 @@ const MenuJewelry: React.FC<Props> = ({ props }) => {
                                 </li>
                                 <li className='h-full flex items-center justify-center logo'>
                                     <Link href={'/'} className='heading4'>
-                                        ToeToys
+                                        BrandStore19
                                     </Link>
                                 </li>
                                 <li className='h-full'>
@@ -964,7 +1009,7 @@ const MenuJewelry: React.FC<Props> = ({ props }) => {
                                 >
                                     <Icon.X size={14} />
                                 </div>
-                                <Link href={'/'} className='logo text-3xl font-semibold text-center'>ToeToys</Link>
+                                <Link href={'/'} className='logo text-3xl font-semibold text-center'>BrandStore19</Link>
                             </div>
                             <div className="form-search relative mt-2">
                                 <Icon.MagnifyingGlass size={20} className='absolute left-3 top-1/2 -translate-y-1/2 cursor-pointer' />

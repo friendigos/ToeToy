@@ -3821,8 +3821,8 @@
     {
         "id": "68",
         "category": "jewelry",
-        "type": "ring",
-        "name": "silver ring",
+        "type": "Adidas",
+        "name": "Adidas Samba",
         "gender": "men",
         "new": false,
         "sale": true,
@@ -3950,8 +3950,8 @@
     {
         "id": "71",
         "category": "jewelry",
-        "type": "ring",
-        "name": "silver ring",
+        "type": "Adidas",
+        "name": "Adidas Samba",
         "gender": "men",
         "new": true,
         "sale": false,

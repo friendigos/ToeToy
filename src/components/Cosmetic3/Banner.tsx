@@ -18,7 +18,7 @@ const Banner = () => {
                                     className='w-full duration-500'
                                 />
                             </div>
-                            <div className="heading4 absolute top-8 left-1/2 -translate-x-1/2 whitespace-nowrap">Check & Coutour</div>
+                            <div className="heading4 absolute top-8 left-1/2 -translate-x-1/2 whitespace-nowrap">Women Bags</div>
                             <div className="button-main absolute bottom-8 left-1/2 -translate-x-1/2">Shop Now</div>
                         </Link>
                         <Link href={'/shop/breadcrumb1'} className="banner-item relative bg-surface block rounded-[20px] overflow-hidden duration-500">
@@ -31,7 +31,7 @@ const Banner = () => {
                                     className='w-full duration-500'
                                 />
                             </div>
-                            <div className="heading4 absolute top-8 left-1/2 -translate-x-1/2 whitespace-nowrap">Palettes</div>
+                            <div className="heading4 absolute top-8 left-1/2 -translate-x-1/2 whitespace-nowrap">Men Bags</div>
                             <div className="button-main absolute bottom-8 left-1/2 -translate-x-1/2">Shop Now</div>
                         </Link>
                         <Link href={'/shop/breadcrumb1'} className="banner-item relative bg-surface block rounded-[20px] overflow-hidden duration-500">
@@ -44,7 +44,7 @@ const Banner = () => {
                                     className='w-full duration-500'
                                 />
                             </div>
-                            <div className="heading4 absolute top-8 left-1/2 -translate-x-1/2 whitespace-nowrap">Eyes</div>
+                            <div className="heading4 absolute top-8 left-1/2 -translate-x-1/2 whitespace-nowrap">Accesories</div>
                             <div className="button-main absolute bottom-8 left-1/2 -translate-x-1/2">Shop Now</div>
                         </Link>
                     </div>

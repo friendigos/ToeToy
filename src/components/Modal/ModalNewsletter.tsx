@@ -6,6 +6,9 @@ import * as Icon from "@phosphor-icons/react/dist/ssr";
 import productData from '@/data/Product.json'
 import { useModalQuickviewContext } from '@/context/ModalQuickviewContext';
 import Image from 'next/image';
+import $ from 'jquery';
+import CounterUp from './CounterUp';
+
 
 const ModalNewsletter = () => {
     const [open, setOpen] = useState<boolean>(false)
@@ -33,10 +36,10 @@ const ModalNewsletter = () => {
                     <div className="main-content flex rounded-[20px] overflow-hidden w-full">
                         <div
                             className="left lg:w-1/2 sm:w-2/5 max-sm:hidden bg-green flex flex-col items-center justify-center gap-5 py-14">
-                            <div className="text-xs font-semibold uppercase text-center">Special Offer</div>
-                            <div
-                                className="lg:text-[70px] text-4xl lg:leading-[78px] leading-[42px] font-bold uppercase text-center">
-                                Black<br />Fridays</div>
+                            <div className="text-xs font-semibold uppercase text-center">Our Happy Customers</div>
+                            {/* <div
+                                className="lg:text-[70px] text-4xl lg:leading-[78px] leading-[42px] font-bold uppercase text-center counterr">756892</div> */}
+                                <CounterUp end={103562} duration={3000} />
                             <div className="text-button-uppercase text-center">New customers save <span
                                 className="text-red">30%</span>
                                 with the code</div>

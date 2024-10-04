@@ -32,7 +32,6 @@ export default function HomeCosmeticThree() {
             <FeaturedProduct data={productData} />
             <BestSellers data={productData} start={9} limit={20} />
             <Benefit props="md:py-20 py-10" />
-            <VideoTutorial />
             <Newsletter props="bg-transparent" />
             <Footer />
             <ModalNewsletter />
